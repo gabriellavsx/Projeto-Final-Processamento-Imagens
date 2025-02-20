@@ -13,11 +13,11 @@ def load_data(file_path):
         exit(1)  # Interrompe a execução em caso de erro
 
 # Carregar Features e Labels
-train_features = load_data('labels/train/features.csv')
-train_labels = load_data('labels/train/labels.csv').astype(int)
+train_features = load_data('labels/train/haralick_features.csv')
+train_labels = load_data('labels/train/haralick_labels.csv').astype(int)
 
-test_features = load_data('labels/val/features.csv')
-test_labels = load_data('labels/val/labels.csv').astype(int)
+test_features = load_data('labels/val/haralick_features.csv')
+test_labels = load_data('labels/val/haralick_labels.csv').astype(int)
 
 # Treinando o modelo
 clf = RandomForestClassifier(n_estimators=100, random_state=42)

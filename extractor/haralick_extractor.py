@@ -50,18 +50,18 @@ def encodeLabels(labels):
 
 def saveData(path, labels, features, encoderClasses):
     os.makedirs(path, exist_ok=True)
-    np.savetxt(os.path.join(path, 'labels.csv'), labels, delimiter=',', fmt='%i')
-    np.savetxt(os.path.join(path, 'features.csv'), features, delimiter=',')
-    np.savetxt(os.path.join(path, 'encoder_classes.csv'), encoderClasses, delimiter=',', fmt='%s')
+    np.savetxt(os.path.join(path, 'haralick_labels.csv'), labels, delimiter=',', fmt='%i')
+    np.savetxt(os.path.join(path, 'haralick_features.csv'), features, delimiter=',')
+    np.savetxt(os.path.join(path, 'haralick_classes.csv'), encoderClasses, delimiter=',', fmt='%s')
 
 def main():
-    print('[INFO] Processando Imagens de Treino...')
+    print('[INFO] Processando Dados de Treino...')
     trainImages, trainLabels = getData(trainImagePath)
     trainEncodedLabels, encoderClasses = encodeLabels(trainLabels)
     trainFeatures = extractHaralickFeatures(trainImages)
     saveData(trainFeaturePath, trainEncodedLabels, trainFeatures, encoderClasses)
 
-    print('[INFO] Processando Imagens de Teste...')
+    print('[INFO] Processando Dados de Teste...')
     testImages, testLabels = getData(testImagePath)
     testEncodedLabels, _ = encodeLabels(testLabels)
     testFeatures = extractHaralickFeatures(testImages)
