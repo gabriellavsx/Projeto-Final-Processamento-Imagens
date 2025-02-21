@@ -7,8 +7,11 @@ de classificação. O dataset utilizado é o de imagens médicas de dois tipos: 
 
 ## Grupo
 
-- [@gabriellavsx](https://www.github.com/gabriellavsx)
-- [@enriqueIO](https://www.github.com/enriqueIO)
+- Nome: Maria Gabriella Victor Gomes da Silva, RA: 2143364
+- Nome: Enrique Marques, RA: 2411377
+
+- Github: [@gabriellavsx](https://www.github.com/gabriellavsx)
+- Github: [@enriqueIO](https://www.github.com/enriqueIO)
 
 ## Método de extração utilizado
 
@@ -20,7 +23,7 @@ de classificação. O dataset utilizado é o de imagens médicas de dois tipos: 
 
 ## Link do Video de Apresentação
 
-[Apresentação]
+[Apresentação](https://alunosutfpredubr-my.sharepoint.com/:v:/g/personal/silva_2001_alunos_utfpr_edu_br/EVGubREZLVJHlowGZ5wt0IoB6Hj-2nx2s9ZUl9GtOxBaFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VFTrKm)
 
 ## Classificador
 
